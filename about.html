@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "768125bb-c4d1-4154-900e-15f10ab61fbe";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "768125bb-c4d1-4154-900e-15f10ab61fbe";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -900,7 +900,7 @@
 
 </section>
 
-<section class="about-values-section" dir="rtl" data-layout-spec="אודות נועמי-values">
+<section class="about-values-section" dir="rtl" data-layout-spec="אודות נועמי-values" id="about-values-section">
   <div class="about-values-container">
 
     <!-- Section Header -->
@@ -914,10 +914,10 @@
       <p class="about-values-subtitle">אנחנו מאמינות שתכשיטים הם הרבה יותר מאביזר — הם ביטוי, מתנה, וחגיגה של נשיות.</p>
     </header>
 
-    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
+    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="margin-top: 0px; top: 71px !important; display: none !important;">
       <div class="catalog-menu-container">
-        <a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
-        <div class="catalog-menu-categories" id="zappy-category-links">
+        <p class="zappy-editable"><a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
+        </p><div class="catalog-menu-categories" id="zappy-category-links" dir="rtl" style="direction: rtl !important;">
           <!-- Categories will be loaded dynamically -->
         </div>
       </div>
@@ -928,7 +928,7 @@
     <div class="about-values-grid">
 
       <!-- Card 1: Trend-Conscious Curation -->
-      <article class="about-values-card">
+      <article class="about-values-card" data-grid-item-index="0">
         <div class="about-values-card-line"></div>
         <div class="about-values-card-number">01</div>
         <h3 class="about-values-card-title">אוצרות טרנד עם טעם</h3>
@@ -936,19 +936,19 @@
       </article>
 
       <!-- Card 2: Feminine Confidence -->
-      <article class="about-values-card">
+      <article class="about-values-card" data-grid-item-index="1">
         <div class="about-values-card-line"></div>
         <div class="about-values-card-number">02</div>
         <h3 class="about-values-card-title">ביטחון נשי מכל עדי</h3>
-        <p class="about-values-card-text">כל תכשיט שאנחנו מציעות נועד לחזק את הביטחון העצמי ולבטא את האישיות הייחודית של כל אחת. בין אם מדובר בעגיל עדין לבת הנעורים או בשרשרת אלגנטית לאישה הבוגרת — נועמי מלווה כל שלב בחיים.</p>
+        <p class="about-values-card-text" style="">כל תכשיט שאנחנו מציעות נועד לחזק את הביטחון העצמי ולבטא את האישיות הייחודית של כל אחת. בין אם מדובר בעגיל עדין לבת הנעורים או בשרשרת אלגנטית &nbsp;לאישה — נועמי מלווה כל שלב בחיים.</p>
       </article>
 
       <!-- Card 3: Beautiful Gifting -->
-      <article class="about-values-card">
+      <article class="about-values-card" data-grid-item-index="2">
         <div class="about-values-card-line"></div>
         <div class="about-values-card-number">03</div>
         <h3 class="about-values-card-title">חוויית מתנה בלתי נשכחת</h3>
-        <p class="about-values-card-text">תכשיטים מתנה לבת, לאמא, לחברה הכי טובה — אנחנו מאמינות שכל מתנה ראויה לארוז ביופי ולהגיש בחום. הקולקציות שלנו מושלמות לכל אירוע, ואנחנו כאן כדי לעזור לך למצוא את הרגע הנכון.</p>
+        <p class="about-values-card-text" style="">תכשיטים מתנה לבת, לאחות, לחברה הכי טובה — אנחנו מאמינות שכל מתנה ראויה לארוז ביופי ולהגיש בחום. הקולקציות שלנו מושלמות לכל אירוע, ואנחנו כאן כדי לעזור לך למצוא את הרגע הנכון.</p>
       </article>
 
     </div>
@@ -1114,7 +1114,7 @@
 </section>
   </main>
   
-  <footer class="site-footer" dir="rtl" aria-label="תחתית האתר"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><a href="/" aria-label="עמוד הבית של Noami"><img src="/assets/noami-jewelry-fashion-accessories-logo.webp" alt="Noami" class="logo"></a><p class="footer-tagline">תכשיטים ואביזרי אופנה בעיצוב עדין ומרגש — לכל אישה, לכל רגע מיוחד.</p><div class="footer-badges"><span class="badge"><i class="fas fa-truck"></i> משלוח חינם</span><span class="badge"><i class="fas fa-gem"></i> איכות פרמיום</span></div></div><div class="footer-col footer-links"><h3 class="footer-heading">ניווט מהיר</h3><ul class="footer-nav"><li><a href="/">בית</a></li><li><a href="/collections-gifting">קולקציות ומתנות</a></li><li><a href="/about">אודות נועמי</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact-col"><h3 class="footer-heading">יצירת קשר</h3><ul class="footer-contact"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul><div class="footer-hours"><h4 class="footer-hours-title"><i class="fas fa-clock"></i> שעות פעילות</h4><div class="hours-row"><span>ראשון–חמישי</span><span>09:00–18:00</span></div><div class="hours-row"><span>שישי</span><span>09:00–13:00</span></div><div class="hours-row"><span>שבת</span><span class="closed">סגור</span></div></div></div><div class="footer-col footer-social-col"><h3 class="footer-heading">עקבו אחרינו</h3><p class="social-desc">הצטרפו לקהילת נועמי וגלו השראה יומיומית לסטייל ולתכשיטים.</p><div class="footer-social"></div><div class="footer-newsletter"><p class="newsletter-label">הירשמו לניוזלטר שלנו</p><form class="newsletter-form" onsubmit="return false;"><input type="email" placeholder="כתובת האימייל שלך" aria-label="כתובת האימייל שלך"><button type="submit" aria-label="הרשמה לניוזלטר"><i class="fas fa-paper-plane"></i></button></form></div></div></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><div class="footer-container"><div class="footer-bottom-inner"><p class="footer-copy">© 2026 Noami. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><span class="legal-sep">·</span><a href="/terms">תנאי שימוש</a><span class="separator">|</span>
+  <footer class="site-footer" dir="rtl" aria-label="תחתית האתר"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><a href="/" aria-label="עמוד הבית של Noami"><img src="/assets/noami-jewelry-fashion-accessories-logo.webp" alt="Noami" class="logo" data-element-type="image" data-element-id="img-1779448440291-1enu6rz63" data-zappy-footer-image="true"></a><p class="footer-tagline">תכשיטים ואביזרי אופנה בעיצוב עדין ומרגש — לכל אישה, לכל רגע מיוחד.</p><div class="footer-badges"><span class="badge" style=""><i class="fas fa-truck" data-element-type="icon" data-element-id="icon-1779448440289-sr74h9ahk" data-icon-type="fontawesome" style="cursor: pointer;"></i> משלוח חינם</span><span class="badge" style=""><i class="fas fa-gem" data-element-type="icon" data-element-id="icon-1779448440289-xpxdnbnvf" data-icon-type="fontawesome" style="cursor: pointer;"></i>איכות פרמיום</span></div></div><div class="footer-col footer-links"><h3 class="footer-heading">ניווט מהיר</h3><ul class="footer-nav"><li><a href="/">בית</a></li><li><a href="/collections-gifting">קולקציות ומתנות</a></li><li><a href="/about">אודות נועמי</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact-col"><h3 class="footer-heading">יצירת קשר</h3><ul class="footer-contact"><li><span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1779448440289-moqq5wu6m" data-icon-type="fontawesome"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1779448440289-v1ds4fr3w" data-icon-type="fontawesome"></i></span><span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul><div class="footer-hours"><h4 class="footer-hours-title"><i class="fas fa-clock" data-element-type="icon" data-element-id="icon-1779448440289-s2j9vn7h1" data-icon-type="fontawesome"></i> שעות פעילות</h4><div class="hours-row"><span>ראשון–חמישי</span><span>09:00–18:00</span></div><div class="hours-row"><span>שישי</span><span>09:00–13:00</span></div><div class="hours-row"><span>שבת</span><span class="closed">סגור</span></div></div></div><div class="footer-col footer-social-col"><h3 class="footer-heading">עקבו אחרינו</h3><p class="social-desc">הצטרפו לקהילת נועמי וגלו השראה יומיומית לסטייל ולתכשיטים.</p><div class="footer-social"></div><div class="footer-newsletter"><p class="newsletter-label">הירשמו לניוזלטר שלנו</p><form class="newsletter-form" onsubmit="return false;" __gcruniqueid="1"><input type="email" placeholder="כתובת האימייל שלך" aria-label="כתובת האימייל שלך" __gcruniqueid="2"><button type="submit" aria-label="הרשמה לניוזלטר" data-element-type="button" data-element-id="btn-1779448440283-ssoxi1rdq" data-native-element="true"><i class="fas fa-paper-plane"></i></button></form></div></div></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><div class="footer-container"><div class="footer-bottom-inner"><p class="footer-copy">© 2026 Noami. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><span class="legal-sep">·</span><a href="/terms">תנאי שימוש</a><span class="separator">|</span>
             <a href="/return-policy" aria-label="מדיניות החזרות">
               מדיניות החזרות
             </a><span class="legal-sep">·</span><a href="/accessibility">נגישות</a><span class="legal-sep">·</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></div></footer>
