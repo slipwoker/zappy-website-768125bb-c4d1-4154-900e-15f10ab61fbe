@@ -1,0 +1,101 @@
+# Noami — Generative Engine Optimization Map
+
+> A trendy and fashionable jewelry brand targeting girls and women, offering a wide inventory of stylish and beautiful collections. The brand focuses on modern, on-trend pieces with a youthful and chic aesthetic, catering to fashion-forward female customers of various ages.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+נועמי מביאה לך את הקולקציות הכי חמות של תכשיטים טרנדיים לנערות ולנשים. עיצובים מודרניים, שיקיים ומלאי אופי — כי את ראויה לזהור. קני עכשיו אונליין!
+
+### קולקציות ומתנות
+https://example.com/collections-gifting
+מחפשת תכשיט מתנה לבת שיפתיע וירגש? קולקציות נועמי מציעות מגוון עשיר של תכשיטים מהממים לכל אירוע ולכל גיל. מצאי את המתנה המושלמת עכשיו!
+
+### אודות נועמי
+https://example.com/about
+נועמי נולדה מתוך אהבה לאופנה ולנשיות. גלי את הסיפור מאחורי המותג שמעצב תכשיטים טרנדיים לנערות ולנשים מכל הגילאים, עם חזון, תשוקה וייחודיות אמיתית.
+
+### צור קשר
+https://example.com/contact
+יש לך שאלה על תכשיטים אונליין ישראל או רוצה לקבל עזרה בבחירת מתנה לבת? צוות נועמי כאן בשבילך — צרי קשר עכשיו ונשמח לעזור לך למצוא את התכשיט המושלם!
+
+### Products
+https://example.com/products
+המוצרים שלנו - Noami
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - Noami
+
+### Category
+https://example.com/category/:slug
+מוצרים - Noami
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Noami
+A trendy and fashionable jewelry brand targeting girls and women, offering a wide inventory of stylish and beautiful collections. The brand focuses on modern, on-trend pieces with a youthful and chic aesthetic, catering to fashion-forward female customers of various ages.
+
+## Target Audience
+- נערות ונשים
+- משפיעניות אופנה
+- קונים למתנות
+- אוספי תכשיטים אונליין
+
+## Industry
+Jewelry & Fashion Accessories
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
